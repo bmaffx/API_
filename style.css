@@ -1,0 +1,57 @@
+html{
+   height: 100%;
+   background-image: url(https://gifdb.com/images/high/fire-anime-skull-in-castlevania-jt4zevnpytloszme.gif);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+#heroi1,#heroi2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 6%;
+    align-items: center;
+    border: 5px solid black;
+    background-color: rgba(240, 248, 255, 0.939);
+}
+
+.nome1{
+    width: fit-content;
+    justify-content: center;
+    font-family: "Marmelad", sans-serif;
+    font-size: 20px;
+    font-weight:900;
+}
+
+.nome2{
+    font-family: "Permanent Marker", cursive;
+    font-size: 40px;
+}
+
+#cards{
+    display: flex;
+    gap: 4%;
+    
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    gap: 3%;
+    text-align: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.imagem{
+    width: 20rem;
+    height: 30rem;
+    
+}
+
+.vencedor{
+    font-family: "Bungee Spice", sans-serif;
+    font-size: 50px;
+}
